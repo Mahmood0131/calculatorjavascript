@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 >Calculator</h1>
+        <div class="container-fluid">
+            <table >
+                <input type="text" name="" id="clr" ><br><button  onclick="clar()">AC</button><button  onclick="del()">C</button>
+                <tr>
+                    <td onclick="getValue('7')" >7</td>
+                    <td onclick="getValue('8')">8</td>
+                    <td onclick="getValue('9')">9</td>
+                    <td onclick="getValue('*')">x</td>
+                </tr>
+                <tr>
+                    <td onclick="getValue('4')">4</td>
+                    <td onclick="getValue('5')">5</td>
+                    <td onclick="getValue('6')">6</td>
+                    <td onclick="getValue('-')">-</td>
+                </tr>
+                <tr>
+                    <td onclick="getValue('1')">1</td>
+                    <td onclick="getValue('2')">2</td>
+                    <td onclick="getValue('3')">3</td>
+                    <td onclick="getValue('+')">+</td>
+                </tr>
+                <tr>
+                    <td onclick="getValue('0')">0</td>
+                    <td onclick="getValue('.')">.</td>
+                    <td onclick="result()">=</td>
+                    <td onclick="getValue('/')">/</td>
+                </tr>
+            </table>
+            <!-- <button onclick="clar()">AC</button>
+        <button onclick="getValue('7')">7</button>
+        <button onclick="getValue('8')">8</button>
+        <button onclick="getValue('9')">9</button>
+        <button onclick="getValue('*')">x</button>
+        <button onclick="getValue('4')">4</button>
+        <button onclick="getValue('5')">5</button>
+        <button onclick="getValue('6')">6</button>
+        <button onclick="getValue('-')">-</button>
+        <button onclick="getValue('1')">1</button>
+        <button onclick="getValue('2')">2</button>
+        <button onclick="getValue('3')">3</button>
+        <button onclick="getValue('+')">+</button>
+        <button onclick="getValue('0')">0</button>
+        <button onclick="getValue('.')">.</button>
+        <button onclick="getValue('/')">/</button>
+        <button onclick="result()">=</button> -->
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

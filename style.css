@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+}
+.container{
+    display: grid;
+    place-items: center;
+    margin-top: -30px;
+    
+    /* border: 2px solid black; */
+
+    
+}
+table{
+    width: 150px;
+    margin-left: -2px;    
+    padding: 10px;
+}
+
+td{
+    border: 1px solid black !important;
+    padding: 10px ;
+    border-radius: 30px;
+    background-color: rgb(197, 193, 193);
+}
+td:hover{
+    background-color: rgb(128, 124, 124);
+}
+
+
+.container-fluid{
+    width: 150px;
+    background-color: black;
+    border: 2px solid darkolivegreen !important;
+    border-radius: 20px;
+}
+button{
+    margin-top: 6px;
+    margin-left: 17px;
+    width: 50px;
+    /* margin-left: 3px; */
+    padding: 3px;
+    border: 2px solid rgb(122, 24, 24);
+    border-radius: 20px !important;
+    background-color: rgb(122, 24, 24);
+}
+button:hover{
+    background-color: rgb(88, 20, 20);
+    border-color: rgb(88, 20, 20) ;
+}
+#clr{
+    background-color: darkolivegreen;
+    border-radius: 20px;
+    width: 120px;
+     margin-left: 9px;
+      margin-top: 5px;
+       border: 2px solid black; 
+       padding: 4px;
+    
+}
+
+h1{
+    /* border: 2px solid black; */
+    color: darkolivegreen;
+    /* background-color: darkolivegreen; */
+    line-height: 1.25;
+}
+input:hover{
+    border: 2px solid rgb(66, 83, 36) !important;
+}
